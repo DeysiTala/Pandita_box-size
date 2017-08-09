@@ -13,6 +13,7 @@ font-family: 'Raleway', sans-serif;
 	box-sizing: border-box;
 	font-family: 'Ralewey', sans-serif; 
 	font-size: 16px;
+	background-color:  #F78E69;
 }
 .introduccion{
 	background-color: #F78E69;
@@ -36,19 +37,51 @@ text-align: right;
 }
 
 #segunda{
-background: url('../img/a1.jpg');
-background-size: contain;
+background: url('../img/uno.jpg');
+background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 padding:79px 174px 256px 169px
 }
 
+.about 
+{
+	
+	color: white;
+	width: 50%;
+	margin: 30px auto;
+	padding: 40px 0px 40px 0px;
+	text-align: center;
 }
-#cuarta{
+.about h3{
+	font-size: 1rem;
+}
 
-	background: url('../img/a2.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	padding:79px 174px 256px 169px
+#tercera{
+	background-color: #ABE188
+
+
+}
+
+.imagen2{
+background-image: url('../img/dos.jpg');	
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding:79px 174px 256px 169px
+
+}
+
+.about{
+	
+	background-color:  #F78E69;
+
+}
+
+.variado {
+
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 30px 30px 30px;
 }
