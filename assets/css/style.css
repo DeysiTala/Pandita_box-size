@@ -1,0 +1,54 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ralewey', sans-serif; 
+	font-size: 16px;
+}
+.introduccion{
+	background-color: #F78E69;
+	color: white;
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px 30px 100px 30px;
+}
+.introduccion h1{
+
+	font-weight: bolder;
+	font-size: 2rem;
+	line-height: 2rem;
+	text-align: right;
+	/*text-transform: uppercase;*/
+
+}
+.subtitulo{
+text-align: right;
+
+}
+
+#segunda{
+background: url('../img/a1.jpg');
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+padding:79px 174px 256px 169px
+}
+
+}
+#cuarta{
+
+	background: url('../img/a2.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding:79px 174px 256px 169px
+}
