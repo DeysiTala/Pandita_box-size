@@ -12,7 +12,7 @@ font-family: 'Raleway', sans-serif;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Ralewey', sans-serif; 
-	font-size: 16px;
+	font-size: 23px;
 	background-color:  #F78E69;
 }
 .introduccion{
@@ -41,30 +41,30 @@ background: url('../img/uno.jpg');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-padding:79px 174px 256px 169px
+padding:79px 300px 260px 180px
 }
 
 .about 
 {
 	
 	color: white;
-	width: 50%;
-	margin: 30px auto;
-	padding: 40px 0px 40px 0px;
-	text-align: center;
+	border: 35px solid #ABE188;
+  	margin: 30px 0;
+  	padding: 20px;
 }
 .about h3{
 	font-size: 1rem;
 }
 
 #tercera{
-	background-color: #ABE188
+	background-color: #ABE188;
 
 
 }
 
 .imagen2{
-background-image: url('../img/dos.jpg');	
+background-image: url('../img/dos.jpg');
+filter: grayscale(100%);	
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -72,16 +72,57 @@ padding:79px 174px 256px 169px
 
 }
 
-.about{
+/*.about{
 	
 	background-color:  #F78E69;
 
+}*/
+
+}
+#quinta{
+	background-color: #ABE188;
+}
+#variado{
+	background-color:#ABE188; 
+}
+.variados
+{
+	
+	
+	border: 8px solid white;
+  	margin: 10px;
+  	margin-bottom: 40px;
+
+  	
+}
+.variado
+	{
+	margin: 30px 0;
+  	padding: 20px;
+  	}
+.variado h1{
+	font-size: 1rem;
+	color: white;
+	text-align: center;
 }
 
-.variado {
+#quinta {
 
+	background-color: #ABE188;
+}
+
+.imagen3{
+background-image: url('../img/tres.jpg');
+filter: grayscale(100%);	
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding:79px 174px 256px 169px
+
+}
+footer{
+	
+	padding: 20px 30px;
 	color: white;
-	width: 40%;
-	margin: 0 auto;
-	padding: 30px 30px 30px 30px;
+	text-align:right;
 }
